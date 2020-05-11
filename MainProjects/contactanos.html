@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="../ProjectsWithCss/contactUsStyle.css">
+    <link  rel="icon"   href="../homePage/Logo.ico" type="image/png"/>
+    <? 
+    php include = 'enviarOpinion.php';
+    ?>
+  </head>
+  <body>
+  <div class="contact-form">
+    <h1>Contactanos</h1>
+    <div class="txtb">
+      <label>Nombre :</label>
+      <input type="text" name="nombre" required="required" placeholder="Escribe tu nombre">
+    </div>
+
+    <div class="txtb">
+      <label>Email :</label>
+      <input type="email" name="email" required="required" placeholder="Escribe tu email">
+    </div>
+
+    <div class="txtb">
+      <label>Número telefonico :</label>
+      <input type="text" placeholder="Escribe tu número telefonico(OPCIONAL)">
+    </div>
+
+    <div class="txtb">
+      <label>Mensaje :</label>
+      <textarea></textarea>
+    </div>
+    <a class="btn" type="submit" name="mensaje"herf="mailto a.e.s.r.company@gmail.com" 
+    onclick='alert("Se ha enviado el correo.")' >Enviar</a>
+  </div>
+  </body>
+</html>
